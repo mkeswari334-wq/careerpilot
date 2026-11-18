@@ -1,5 +1,5 @@
 # Java / Maven
-api/target/
+**/target/
 # IDE
 .idea/
 *.iml
