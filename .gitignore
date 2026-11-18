@@ -1,0 +1,11 @@
+# Java / Maven
+api/target/
+# IDE
+.idea/
+*.iml
+.vscode/
+# Node (for web later)
+node_modules/
+.next/
+# Secrets
+.env
