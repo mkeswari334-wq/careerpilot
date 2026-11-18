@@ -2,8 +2,8 @@ spring:
   application:
     name: submittrack-api
   datasource:
-    url: jdbc:mysql://localhost:3306/submittrack
-    username: submittrack_app
+    url: ${DB_URL:jdbc:mysql://localhost:3307/submittrack}
+    username: ${DB_USERNAME:submittrack_app}
     password: ${DB_PASSWORD}
   jpa:
     hibernate:
